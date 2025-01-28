@@ -5,10 +5,10 @@
     { "file": "IEEE IAS DIU Logo-01.png", "title": "IEEE IAS DIU Logo" },
     { "file": "IEEE Logo.png", "title": "IEEE Logo" },
     { "file": "ieee-cs-bd-logo-white.png", "title": "IEEE CS Bangladesh Logo (White)" },
-    { "file": "ieee-cs-bd-logo.png", "title": "IEEE CS Bangladesh Logo" },
-    { "file": "ieee-cs-logo.png", "title": "IEEE CS Logo" },
-    { "file": "ieee-diu-logo-new.png", "title": "IEEE DIU New Logo" },
-    { "file": "ieee-diu-profile.png", "title": "IEEE DIU Profile Logo" }
+    { "file": "ieee-cs-bd-logo.png", "title": "IEEE CS Bangladesh Logo (Colorful)" },
+    { "file": "ieee-cs-logo.png", "title": "IEEE Computer Society Logo" },
+    { "file": "ieee-diu-logo-new.png", "title": "IEEE DIU Student Branch Logo" },
+    { "file": "ieee-diu-profile.png", "title": "IEEE DIU SB Profile Logo" }
   ],
   "cards": [
     { "file": "Shuvo_3.png", "title": "Shuvo's Card Design" }
