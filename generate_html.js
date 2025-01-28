@@ -13,12 +13,25 @@ async function generateGallery(category) {
             return;
         }
 
-        // Add images to the gallery
-        imageMap[category].forEach((file) => {
+        // Add images and titles to the gallery
+        imageMap[category].forEach(({ file, title }) => {
+            // Create container for image and title
+            const container = document.createElement("div");
+            container.classList.add("image-container");
+
+            // Create image element
             const imgElement = document.createElement("img");
             imgElement.src = `images/${category}/${file}`;
-            imgElement.alt = `${category} image`;
-            gallery.appendChild(imgElement);
+            imgElement.alt = title;
+            container.appendChild(imgElement);
+
+            // Create title element
+            const titleElement = document.createElement("p");
+            titleElement.classList.add("image-title");
+            titleElement.textContent = title;
+            container.appendChild(titleElement);
+
+            gallery.appendChild(container);
         });
     } catch (error) {
         console.error("Failed to load images:", error);

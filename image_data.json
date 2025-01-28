@@ -1,25 +1,25 @@
 {
   "logos": [
-    "diu-line-art-01.png",
-    "diu-logo.png",
-    "IEEE IAS DIU Logo-01.png",
-    "IEEE Logo.png",
-    "ieee-cs-bd-logo-white.png",
-    "ieee-cs-bd-logo.png",
-    "ieee-cs-logo.png",
-    "ieee-diu-logo-new.png",
-    "ieee-diu-profile.png"
+    { "file": "diu-line-art-01.png", "title": "DIU Line Art" },
+    { "file": "diu-logo.png", "title": "DIU Logo" },
+    { "file": "IEEE IAS DIU Logo-01.png", "title": "IEEE IAS DIU Logo" },
+    { "file": "IEEE Logo.png", "title": "IEEE Logo" },
+    { "file": "ieee-cs-bd-logo-white.png", "title": "IEEE CS Bangladesh Logo (White)" },
+    { "file": "ieee-cs-bd-logo.png", "title": "IEEE CS Bangladesh Logo" },
+    { "file": "ieee-cs-logo.png", "title": "IEEE CS Logo" },
+    { "file": "ieee-diu-logo-new.png", "title": "IEEE DIU New Logo" },
+    { "file": "ieee-diu-profile.png", "title": "IEEE DIU Profile Logo" }
   ],
   "cards": [
-    "Shuvo_3.png"
+    { "file": "Shuvo_3.png", "title": "Shuvo's Card Design" }
   ],
   "landscapes": [
-    "Chillers Cover Final.png"
+    { "file": "Chillers Cover Final.png", "title": "Chillers Cover Design" }
   ],
   "portraits": [
-    "Me03(edited).jpeg"
+    { "file": "Me03(edited).jpeg", "title": "Edited Portrait of Me" }
   ],
   "others": [
-    "la_ilaha_illallah.jpg"
+    { "file": "la_ilaha_illallah.jpg", "title": "Arabic Calligraphy - La Ilaha Illallah" }
   ]
 }

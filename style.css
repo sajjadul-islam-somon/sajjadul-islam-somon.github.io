@@ -61,3 +61,20 @@ nav button:hover {
 .gallery-container img:hover {
     transform: scale(1.05);
 }
+
+/* Image Container */
+.image-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 200px; /* Adjust based on your design */
+    margin: 10px;
+    text-align: center;
+}
+
+/* Image Title */
+.image-title {
+    margin-top: 5px;
+    font-size: 14px;
+    color: #555;
+}
