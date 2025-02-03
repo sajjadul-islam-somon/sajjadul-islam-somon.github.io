@@ -6,27 +6,34 @@ async function generateGallery(category) {
         const response = await fetch("image_data.json");
         const imageMap = await response.json();
 
-        // If "all" is selected, show a mix of images from all categories
-        let allImages = [];
+        let imagesToShow = [];
+
+        // Show a mix of images from all categories for the "ALL" section
         if (category === "all") {
             Object.keys(imageMap).forEach(cat => {
-                allImages.push(...imageMap[cat].slice(0, 3)); // Pick first 3 images from each category
+                imagesToShow.push(...imageMap[cat].slice(0, 3).map(image => ({
+                    ...image,
+                    category: cat // Add category info for correct path
+                })));
             });
+        } else {
+            imagesToShow = imageMap[category] ? imageMap[category].map(image => ({
+                ...image,
+                category: category
+            })) : [];
         }
 
-        const selectedImages = category === "all" ? allImages : imageMap[category] || [];
-
-        if (selectedImages.length === 0) {
+        if (imagesToShow.length === 0) {
             gallery.innerHTML = `<p>No images available for ${category}.</p>`;
             return;
         }
 
-        selectedImages.forEach(({ file, title }) => {
+        imagesToShow.forEach(({ file, title, category }) => {
             const container = document.createElement("div");
             container.classList.add("image-container");
 
             const imgElement = document.createElement("img");
-            imgElement.src = `images/${category}/${file}`;
+            imgElement.src = `images/${category}/${file}`; // Ensure correct category path
             imgElement.alt = title;
             container.appendChild(imgElement);
 
