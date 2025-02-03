@@ -1,14 +1,14 @@
 {
   "logos": [
-    { "file": "diu-line-art-01.png", "title": "DIU Line Art" },
     { "file": "diu-logo.png", "title": "DIU Logo" },
-    { "file": "IEEE IAS DIU Logo-01.png", "title": "IEEE IAS DIU Logo" },
-    { "file": "IEEE Logo.png", "title": "IEEE Logo" },
-    { "file": "ieee-cs-bd-logo-white.png", "title": "IEEE CS Bangladesh Logo (White)" },
-    { "file": "ieee-cs-bd-logo.png", "title": "IEEE CS Bangladesh Logo (Colorful)" },
-    { "file": "ieee-cs-logo.png", "title": "IEEE Computer Society Logo" },
+    { "file": "ieee-diu-profile.png", "title": "IEEE DIU SB Profile Logo" },
     { "file": "ieee-diu-logo-new.png", "title": "IEEE DIU Student Branch Logo" },
-    { "file": "ieee-diu-profile.png", "title": "IEEE DIU SB Profile Logo" }
+    { "file": "ieee-cs-diu-logo.png", "title": "IEEE CS DIU Logo" },
+    { "file": "ieee-ias-diu-logo.png", "title": "IEEE IAS DIU Logo" },
+    { "file": "ieee-cs-bd-logo-white.png", "title": "IEEE CS Bangladesh Logo (White)" },
+    { "file": "diu-line-art.png", "title": "DIU Line Art" },
+    { "file": "ieee-logo.png", "title": "IEEE Logo" },
+    { "file": "ieee-cs-bd-logo.png", "title": "IEEE CS Bangladesh Logo (Colorful)" }
   ],
   "cards": [
     { "file": "Shuvo_3.png", "title": "Shuvo's Card Design" }
