@@ -1,13 +1,13 @@
 {
   "logos": [
     { "file": "diu-logo.png", "title": "DIU Logo" },
-    { "file": "ieee-diu-profile.png", "title": "IEEE DIU SB Profile Logo" },
     { "file": "ieee-diu-logo-new.png", "title": "IEEE DIU Student Branch Logo" },
     { "file": "ieee-cs-diu-logo.png", "title": "IEEE CS DIU Logo" },
     { "file": "ieee-ias-diu-logo.png", "title": "IEEE IAS DIU Logo" },
-    { "file": "ieee-cs-bd-logo-white.png", "title": "IEEE CS Bangladesh Logo (White)" },
+    { "file": "ieee-diu-profile.png", "title": "IEEE DIU SB Profile Logo" },
     { "file": "diu-line-art.png", "title": "DIU Line Art" },
     { "file": "ieee-logo.png", "title": "IEEE Logo" },
+    { "file": "ieee-cs-bd-logo-white.png", "title": "IEEE CS Bangladesh Logo (White)" },
     { "file": "ieee-cs-bd-logo.png", "title": "IEEE CS Bangladesh Logo (Colorful)" }
   ],
   "cards": [
