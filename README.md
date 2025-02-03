@@ -1,4 +1,4 @@
-# Collection of Designs <br>
+# Dynamic Gallery of Designs ####<a href="https://sajjadul-islam-somon.github.io"><i>CLICK</i></a><br>
 ## IEEE Daffodil International University (DIU) Student Branch <br>
 #### <b>1. IEEE DIU SB Logo .PNG(<i>High Quality PNG</i>)</b> <a href="https://sajjadul-islam-somon.github.io/images/logos/ieee-diu-logo-new.png"><i>CLICK</i></a><br>
 #### <b>2. IEEE DIU SB Profile Picture .PNG(<i>High Quality PNG</i>)</b> <a href="https://sajjadul-islam-somon.github.io/images/logos/ieee-diu-profile.png"><i>CLICK</i><br>
