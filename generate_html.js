@@ -1,31 +1,35 @@
 async function generateGallery(category) {
     const gallery = document.getElementById("gallery");
-    gallery.innerHTML = ""; // Clear existing gallery content
+    gallery.innerHTML = ""; // Clear previous images
 
     try {
-        // Fetch the JSON file
         const response = await fetch("image_data.json");
         const imageMap = await response.json();
 
-        // Check if category exists
-        if (!imageMap[category] || imageMap[category].length === 0) {
+        // If "all" is selected, show a mix of images from all categories
+        let allImages = [];
+        if (category === "all") {
+            Object.keys(imageMap).forEach(cat => {
+                allImages.push(...imageMap[cat].slice(0, 3)); // Pick first 3 images from each category
+            });
+        }
+
+        const selectedImages = category === "all" ? allImages : imageMap[category] || [];
+
+        if (selectedImages.length === 0) {
             gallery.innerHTML = `<p>No images available for ${category}.</p>`;
             return;
         }
 
-        // Add images and titles to the gallery
-        imageMap[category].forEach(({ file, title }) => {
-            // Create container for image and title
+        selectedImages.forEach(({ file, title }) => {
             const container = document.createElement("div");
             container.classList.add("image-container");
 
-            // Create image element
             const imgElement = document.createElement("img");
             imgElement.src = `images/${category}/${file}`;
             imgElement.alt = title;
             container.appendChild(imgElement);
 
-            // Create title element
             const titleElement = document.createElement("p");
             titleElement.classList.add("image-title");
             titleElement.textContent = title;

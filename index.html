@@ -3,23 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>DIU Logo & Icon</title>
+    <title>Saju's Image Gallery</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <header>
-        <h1>Dynamic Image Gallery</h1>
+        <h1>Saju's Image Gallery</h1>
         <nav>
-            <button onclick="generateGallery('logos')">Logos</button>
-            <button onclick="generateGallery('cards')">Cards</button>
-            <button onclick="generateGallery('landscapes')">Landscapes</button>
-            <button onclick="generateGallery('portraits')">Portraits</button>
-            <button onclick="generateGallery('others')">Others</button>
+            <button data-category="all" class="active">All</button>
+            <button data-category="logos">Logos</button>
+            <button data-category="cards">Cards</button>
+            <button data-category="landscapes">Landscapes</button>
+            <button data-category="portraits">Portraits</button>
+            <button data-category="others">Others</button>
         </nav>
     </header>
     <main>
         <div id="gallery" class="gallery-container"></div>
     </main>
     <script src="generate_html.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
