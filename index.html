@@ -9,19 +9,39 @@
 <body>
     <header>
         <h1>Saju's Image Gallery</h1>
-        <nav>
-            <button data-category="all" class="active">All</button>
-            <button data-category="logos">Logos</button>
-            <button data-category="cards">Cards</button>
-            <button data-category="landscapes">Landscapes</button>
-            <button data-category="portraits">Portraits</button>
-            <button data-category="others">Others</button>
-        </nav>
+        <p>Explore my collection of images across various categories.</p>
     </header>
+
+    <!-- Image Category Buttons -->
+    <div id="category-buttons" class="category-container">
+        <!-- Manually added buttons with titles -->
+        <div class="category-card">
+            <img src="images/logos/ieee-diu-profile.png" alt="Logos" class="category-btn">
+            <p class="category-title">Logos</p>
+        </div>
+        <div class="category-card">
+            <img src="images/cards/Shuvo_3.png" alt="Cards" class="category-btn">
+            <p class="category-title">Cards</p>
+        </div>
+        <div class="category-card">
+            <img src="images/landscapes/Chillers Cover Final.png" alt="Landscapes" class="category-btn">
+            <p class="category-title">Landscapes</p>
+        </div>
+        <div class="category-card">
+            <img src="images/portraits/Me03(edited).jpeg" alt="Portraits" class="category-btn">
+            <p class="category-title">Portraits</p>
+        </div>
+        <div class="category-card">
+            <img src="images/others/la_ilaha_illallah.jpg" alt="Others" class="category-btn">
+            <p class="category-title">Others</p>
+        </div>
+    </div>
+
+    <!-- Gallery Container -->
     <main>
         <div id="gallery" class="gallery-container"></div>
     </main>
-    <script src="generate_html.js"></script>
+
     <script src="script.js"></script>
 </body>
 </html>
